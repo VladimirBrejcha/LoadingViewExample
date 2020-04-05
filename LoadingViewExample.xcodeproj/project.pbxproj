@@ -3,22 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E388E302439F9C5001A28DF /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7E388E2F2439F9C4001A28DF /* preview.gif */; };
 		7EE8489F24276D5400C08E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8489E24276D5400C08E43 /* AppDelegate.swift */; };
-		7EE848A124276D5400C08E43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE848A024276D5400C08E43 /* SceneDelegate.swift */; };
 		7EE848A324276D5400C08E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE848A224276D5400C08E43 /* ViewController.swift */; };
 		7EE848A624276D5400C08E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE848A424276D5400C08E43 /* Main.storyboard */; };
 		7EE848A824276D5700C08E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE848A724276D5700C08E43 /* Assets.xcassets */; };
 		7EE848AB24276D5700C08E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE848A924276D5700C08E43 /* LaunchScreen.storyboard */; };
+		7EE848B424276DE000C08E43 /* LoadingView in Frameworks */ = {isa = PBXBuildFile; productRef = 7EE848B324276DE000C08E43 /* LoadingView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E388E2F2439F9C4001A28DF /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
 		7EE8489B24276D5400C08E43 /* LoadingViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE8489E24276D5400C08E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EE848A024276D5400C08E43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7EE848A224276D5400C08E43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EE848A524276D5400C08E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EE848A724276D5700C08E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE848B424276DE000C08E43 /* LoadingView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,8 +58,8 @@
 		7EE8489D24276D5400C08E43 /* LoadingViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				7E388E2F2439F9C4001A28DF /* preview.gif */,
 				7EE8489E24276D5400C08E43 /* AppDelegate.swift */,
-				7EE848A024276D5400C08E43 /* SceneDelegate.swift */,
 				7EE848A224276D5400C08E43 /* ViewController.swift */,
 				7EE848A424276D5400C08E43 /* Main.storyboard */,
 				7EE848A724276D5700C08E43 /* Assets.xcassets */,
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = LoadingViewExample;
+			packageProductDependencies = (
+				7EE848B324276DE000C08E43 /* LoadingView */,
+			);
 			productName = LoadingViewExample;
 			productReference = 7EE8489B24276D5400C08E43 /* LoadingViewExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 7EE8489224276D5400C08E43;
+			packageReferences = (
+				7EE848B224276DE000C08E43 /* XCRemoteSwiftPackageReference "LoadingView" */,
+			);
 			productRefGroup = 7EE8489C24276D5400C08E43 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE848AB24276D5700C08E43 /* LaunchScreen.storyboard in Resources */,
+				7E388E302439F9C5001A28DF /* preview.gif in Resources */,
 				7EE848A824276D5700C08E43 /* Assets.xcassets in Resources */,
 				7EE848A624276D5400C08E43 /* Main.storyboard in Resources */,
 			);
@@ -140,7 +149,6 @@
 			files = (
 				7EE848A324276D5400C08E43 /* ViewController.swift in Sources */,
 				7EE8489F24276D5400C08E43 /* AppDelegate.swift in Sources */,
-				7EE848A124276D5400C08E43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -338,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7EE848B224276DE000C08E43 /* XCRemoteSwiftPackageReference "LoadingView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "file:///Users/vladimirbrejcha/Desktop/Projects/LoadingView";
+			requirement = {
+				branch = Dev;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7EE848B324276DE000C08E43 /* LoadingView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EE848B224276DE000C08E43 /* XCRemoteSwiftPackageReference "LoadingView" */;
+			productName = LoadingView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7EE8489324276D5400C08E43 /* Project object */;
 }
