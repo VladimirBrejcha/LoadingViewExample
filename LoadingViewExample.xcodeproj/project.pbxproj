@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7E388E302439F9C5001A28DF /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7E388E2F2439F9C4001A28DF /* preview.gif */; };
+		7E388E33243A016C001A28DF /* LoadingView in Frameworks */ = {isa = PBXBuildFile; productRef = 7E388E32243A016C001A28DF /* LoadingView */; };
 		7EE8489F24276D5400C08E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8489E24276D5400C08E43 /* AppDelegate.swift */; };
 		7EE848A324276D5400C08E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE848A224276D5400C08E43 /* ViewController.swift */; };
 		7EE848A624276D5400C08E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE848A424276D5400C08E43 /* Main.storyboard */; };
 		7EE848A824276D5700C08E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE848A724276D5700C08E43 /* Assets.xcassets */; };
 		7EE848AB24276D5700C08E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE848A924276D5700C08E43 /* LaunchScreen.storyboard */; };
-		7EE848B424276DE000C08E43 /* LoadingView in Frameworks */ = {isa = PBXBuildFile; productRef = 7EE848B324276DE000C08E43 /* LoadingView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE848B424276DE000C08E43 /* LoadingView in Frameworks */,
+				7E388E33243A016C001A28DF /* LoadingView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = LoadingViewExample;
 			packageProductDependencies = (
-				7EE848B324276DE000C08E43 /* LoadingView */,
+				7E388E32243A016C001A28DF /* LoadingView */,
 			);
 			productName = LoadingViewExample;
 			productReference = 7EE8489B24276D5400C08E43 /* LoadingViewExample.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 7EE8489224276D5400C08E43;
 			packageReferences = (
-				7EE848B224276DE000C08E43 /* XCRemoteSwiftPackageReference "LoadingView" */,
+				7E388E31243A016C001A28DF /* XCRemoteSwiftPackageReference "LoadingView" */,
 			);
 			productRefGroup = 7EE8489C24276D5400C08E43 /* Products */;
 			projectDirPath = "";
@@ -348,20 +348,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7EE848B224276DE000C08E43 /* XCRemoteSwiftPackageReference "LoadingView" */ = {
+		7E388E31243A016C001A28DF /* XCRemoteSwiftPackageReference "LoadingView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/vladimirbrejcha/Desktop/Projects/LoadingView";
+			repositoryURL = "https://github.com/VladimirBrejcha/LoadingView";
 			requirement = {
-				branch = Dev;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7EE848B324276DE000C08E43 /* LoadingView */ = {
+		7E388E32243A016C001A28DF /* LoadingView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7EE848B224276DE000C08E43 /* XCRemoteSwiftPackageReference "LoadingView" */;
+			package = 7E388E31243A016C001A28DF /* XCRemoteSwiftPackageReference "LoadingView" */;
 			productName = LoadingView;
 		};
 /* End XCSwiftPackageProductDependency section */
