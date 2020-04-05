@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  LoadingViewExample
-//
-//  Created by Владимир Королев on 22.03.2020.
-//  Copyright © 2020 Vladimir Brejcha. All rights reserved.
-//
+//  Copyright © 2020 VladimirBrejcha. All rights reserved.
 
 import UIKit
 import LoadingView

@@ -1,12 +1,4 @@
-//
-//  AppDelegate.swift
-//  LoadingViewExample
-//
-//  Created by Владимир Королев on 22.03.2020.
-//  Copyright © 2020 Vladimir Brejcha. All rights reserved.
-//
-
-// Photo by Jason Leung on Unsplash
+//  Copyright © 2020 VladimirBrejcha. All rights reserved.
 
 import UIKit
 
